@@ -10,7 +10,7 @@ body {
 footer {
 	margin-left: auto;
 	margin-right: auto;
-	//margin-top: 580px;
+	margin-top: -25px;
 	bottom: 0;
 	font-size: 30px;
 	color: #FFFFFF;
@@ -66,6 +66,5 @@ footer {
 .WIP {
 	color: red;
 	margin-left: 90%;
-	padding-top: 580px;
-	bottom: 0;
+	padding-top: 600px;
 }
