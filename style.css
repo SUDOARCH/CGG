@@ -1,5 +1,5 @@
 body {
-	background: url("img/space_2.jpg") no-repeat center top;
+	background: url("img/space_1.jpg") no-repeat center top;
 	background-size: cover;
 	font-family: Arial, sans-serif;
 	padding: 0;
@@ -13,11 +13,12 @@ footer {
 	bottom: 15px;
 	width: 100%;
 	font-size: 30px;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-align: center;
 }
 
 .version {
+	color: ffffff;
 	margin-top: 0.5%;
 }
 
@@ -65,5 +66,6 @@ footer {
 }
 
 .CenterBar {
+	color: ffffff;
 	font-size: 20px;
 }
