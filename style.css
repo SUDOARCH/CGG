@@ -72,5 +72,6 @@ footer {
 
 .Applications {
 	float: right;
+	margin-right: 10px;
 	color: #ffffff;
 }
