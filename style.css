@@ -58,6 +58,7 @@ footer {
 	border-right: 2px solid #e0f7fa;
 	background: rgba(173, 192, 206, .3);
 	color: #fff;
+	filter: progid:DXImageTransform.Microsoft.Glow(color=blue, strength=6);
 }
 
 .menu a:hover {
