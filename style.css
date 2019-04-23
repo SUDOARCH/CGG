@@ -44,7 +44,6 @@ footer {
 	width: 14.8%;
 	background: #3e3e63;
 	display: inline-block;
-	filter: progid:DXImageTransform.Microsoft.Glow(color=blue, strength=6);
 }
 
 .menu a {
@@ -58,7 +57,6 @@ footer {
 	border-right: 2px solid #e0f7fa;
 	background: rgba(173, 192, 206, .3);
 	color: #fff;
-	filter: progid:DXImageTransform.Microsoft.Glow(color=blue, strength=6);
 }
 
 .menu a:hover {
