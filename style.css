@@ -39,13 +39,12 @@ footer {
 }
 
 .menu {
-	margin: -1px;
-	width: 14.8%;
-	
 	display: inline-block;
 }
 
 .menu a {
+	margin: -1px;
+	width: 14.8%;
 	transition: .5s linear;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -54,7 +53,7 @@ footer {
 	padding: 1em;
 	border-left: 1px solid #e0f7fa;
 	border-right: 1px solid #e0f7fa;
-	background: rgba(173,192,206,.3);
+	background: rgba(50,50,150,.3);
 	color: #fff;
 }
 
