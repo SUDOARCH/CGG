@@ -40,11 +40,11 @@ footer {
 
 .menu {
 	display: inline-block;
-	margin: -1px;
+	width: 14.8%;
 }
 
 .menu a {
-	width: 14.8%;
+	margin: -1px;
 	transition: .5s linear;
 	text-decoration: none;
 	text-transform: uppercase;
