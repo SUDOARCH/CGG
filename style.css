@@ -44,7 +44,6 @@ footer {
 }
 
 .menu a {
-	margin: -1px;
 	transition: .5s linear;
 	text-decoration: none;
 	text-transform: uppercase;
