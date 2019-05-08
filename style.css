@@ -67,6 +67,7 @@ footer {
 }
 
 .Software {
+	display: inline-block;
 	float: 0 auto;
 	color: #fff;
 }
