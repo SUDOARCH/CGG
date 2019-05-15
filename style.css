@@ -67,8 +67,8 @@ footer {
 
 .RendersBlock {
 	height: 34vw;
-	overflow: hidden;
-	seamless: seamless;
+	overflow: auto;
+	::-webkit-scrollbar { width: 0 !important }
 	
 	width: 75vw;
 	left: 0;
