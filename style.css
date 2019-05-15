@@ -67,7 +67,7 @@ footer {
 }
 
 .RendersBlock {
-	height: 60vw;
+	height: 30vw;
 	overflow: scroll;
 	position: absolute;
 	width: 75vw;
