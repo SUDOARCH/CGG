@@ -67,7 +67,7 @@ footer {
 
 .RendersBlock {
 	height: 33vw;
-	overflow: auto;
+	overflow: hidden;
 	width: 75vw;
 	left: 0;
 	right: 0;
