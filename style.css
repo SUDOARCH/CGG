@@ -47,7 +47,7 @@ footer {
 	padding: 1em;
 	text-decoration: none;
 	text-transform: uppercase;
-	transition: .5s linear;
+	transition: 2s linear;
 	box-shadow: inset 0 5px 2px rgba(255,255,255,.6), inset 0 -5px 2px rgba(0,0,0,.6), inset 0 -10px 1px rgba(0,0,0,.3), inset 0 10px 1px rgba(255,255,255,.3);
 	background: #373760;
 	border-left: 2px solid #fff;
@@ -85,7 +85,7 @@ footer {
 	box-shadow: 2px 2px 0px rgba(48, 193, 255, 0.4), -2px -2px 0px rgba(48, 193, 255, 0.4), 2px -2px 0px rgba(48, 193, 255, 0.4), -2px 2px 0px rgba(48, 193, 255, 0.4);
 	margin-top: 1vh;
 	margin-bottom: 5vh;
-	transition: .1s linear;
+	transition: 1s linear;
 }
 
 .OneRender img:hover {
