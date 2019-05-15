@@ -69,7 +69,6 @@ footer {
 .RendersBlock {
 	height: 34vw;
 	overflow: scroll;
-	
 	width: 75vw;
 	left: 0;
 	right: 0;
@@ -84,7 +83,7 @@ footer {
 
 .OneRender img {
 	border-radius: 15px;
-	box-shadow: 4px 4px 4px #4D311b92;
+	box-shadow: 4px 4px 4px rgba(245, 124, 0, 100);
 	margin-top: 1vh;
 	margin-bottom: 5vh;
 }
