@@ -67,7 +67,7 @@ footer {
 }
 
 .RendersBlock {
-	height: 600px;
+	height: 60vw;
 	overflow: scroll;
 	position: absolute;
 	width: 75vw;
@@ -75,7 +75,6 @@ footer {
 	right: 0;
 	margin: 0 auto;
 	color: #ffba66;
-	
 	padding: 1%;
 	display: flex;
 	flex-wrap: wrap;
