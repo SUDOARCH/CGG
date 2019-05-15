@@ -79,7 +79,6 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	::-webkit-scrollbar { width: 0 !important }
 }
 
 .OneRender img {
@@ -92,3 +91,5 @@ footer {
 .OneRender img:hover {
 	box-shadow: 5px 5px 5px rgba(28, 18, 209, 0.5), -5px -5px 5px rgba(28, 18, 209, 0.5), 5px -5px 5px rgba(28, 18, 209, 0.5), -5px 5px 5px rgba(28, 18, 209, 0.5);
 }
+
+::-webkit-scrollbar { width: 0 !important }
