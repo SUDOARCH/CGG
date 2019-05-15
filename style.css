@@ -81,3 +81,10 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+
+.OneRender img {
+  border-radius: 15px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
