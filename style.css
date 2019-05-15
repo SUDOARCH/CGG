@@ -82,7 +82,7 @@ footer {
 
 .OneRender img {
 	border-radius: 15px;
-	box-shadow: 2px 2px 0px rgba(255, 255, 255, 0.4), -2px -2px 0px rgba(255, 255, 255, 0.4), 2px -2px 0px rgba(255, 255, 255, 0.4), -2px 2px 0px rgba(255, 255, 255, 0.4);
+	box-shadow: 2px 2px rgba(255, 255, 255, 0.4), -2px -2px rgba(255, 255, 255, 0.4), 2px -2px rgba(255, 255, 255, 0.4), -2px 2px rgba(255, 255, 255, 0.4);
 	margin-top: 1vh;
 	margin-bottom: 5vh;
 	transition: .15s linear;
