@@ -82,11 +82,11 @@ footer {
 
 .OneRender img {
 	border-radius: 15px;
-	box-shadow: 2px 2px 2px 2px rgba(48, 193, 255, 0.5);
+	box-shadow: 2px 2px 2px rgba(48, 193, 255, 0.5), -2px -2px 2px rgba(48, 193, 255, 0.5);
 	margin-top: 1vh;
 	margin-bottom: 5vh;
 }
 
 .OneRender img:hover {
-	box-shadow: 5px 5px 5px 5px #311b92;
+	box-shadow: 5px 5px 5px #311b92;
 }
