@@ -71,9 +71,11 @@ footer {
 	overflow: scroll;
 	position: absolute;
 	width: 75vw;
+	left: 0;
+	right: 0;
 	margin: 0 auto;
 	color: #ffba66;
-	text-align: center;
+	
 	padding: 1%;
 	display: flex;
 	flex-wrap: wrap;
