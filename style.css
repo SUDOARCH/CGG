@@ -88,5 +88,5 @@ footer {
 }
 
 .OneRender img:hover {
-	box-shadow: 5px 5px 5px #311b92, -5px -5px 5px #311b92;
+	box-shadow: 5px 5px 5px #311b92, -5px -5px 5px #311b92, 5px -5px 5px #311b92, -5px 5px 5px #311b92;
 }
