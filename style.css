@@ -84,7 +84,7 @@ footer {
 
 .OneRender img {
   border-radius: 15px;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 4px #4D311b92;
   margin-top: 1vh;
   margin-bottom: 5vh;
 }
