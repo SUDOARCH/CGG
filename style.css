@@ -67,27 +67,29 @@ footer {
 }
 
 .RendersBlock {
-  overflow: scroll;
-  position: absolute;
-  width: 75vw;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  color: #ffba66;
-  text-align: center;
-  padding: 1%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+	height: 600px;
+	overflow: scroll;
+	position: absolute;
+	width: 75vw;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	color: #ffba66;
+	text-align: center;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .OneRender img {
-  border-radius: 15px;
-  box-shadow: 4px 4px 4px #4D311b92;
-  margin-top: 1vh;
-  margin-bottom: 5vh;
+	border-radius: 15px;
+	box-shadow: 4px 4px 4px #4D311b92;
+	margin-top: 1vh;
+	margin-bottom: 5vh;
 }
 
 .OneRender img:hover {
-  box-shadow: 5px 5px 5px #311b92;
+	box-shadow: 5px 5px 5px #311b92;
+}
