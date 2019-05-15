@@ -88,3 +88,6 @@ footer {
   margin-top: 1vh;
   margin-bottom: 5vh;
 }
+
+.OneRender img:hover {
+  box-shadow: 5px 5px 5px rgba(255, 140, 0, 0.7);
