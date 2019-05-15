@@ -65,3 +65,19 @@ footer {
 	color: #fff;
 	font-size: 20px;
 }
+
+.RendersBlock {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 75vw;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #ffba66;
+  text-align: center;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
