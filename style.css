@@ -8,8 +8,7 @@ body {
 
 footer {
 	position: absolute;
-	bottom: 0;
-	bottom: 15px;
+	bottom: 1vw;
 	width: 100%;
 	font-size: 30px;
 	color: #fff;
