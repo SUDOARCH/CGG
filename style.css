@@ -68,7 +68,6 @@ footer {
 .RendersBlock {
 	height: 34vw;
 	overflow: auto;
-	::-webkit-scrollbar { width: 0 !important }
 	position: absolute;
 	width: 75vw;
 	left: 0;
@@ -80,6 +79,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	::-webkit-scrollbar { width: 0 !important }
 }
 
 .OneRender img {
