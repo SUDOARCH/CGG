@@ -72,13 +72,15 @@ footer {
 	width: 75vw;
 	left: 0;
 	right: 0;
-	margin: 0 auto;
+	
 	color: #fff;
 	padding: 1%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+	margin: auto;
+	clear: both;
 }
 
 .RendersBlock::-webkit-scrollbar
