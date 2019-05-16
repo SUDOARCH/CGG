@@ -68,19 +68,17 @@ footer {
 .RendersBlock {
 	scrollbar-width: none;
 	overflow: auto;
-	height: 37vw;
+	height: 70%;
 	width: 75vw;
 	left: 0;
 	right: 0;
-	
+	margin: auto;
 	color: #fff;
 	padding: 1%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	margin: auto;
-	clear: both;
 }
 
 .RendersBlock::-webkit-scrollbar
