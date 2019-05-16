@@ -66,6 +66,7 @@ footer {
 }
 
 .RendersBlock {
+	scrollbar-width: none;
 	overflow: auto;
 	height: 34vw;
 	width: 75vw;
@@ -80,6 +81,12 @@ footer {
 	align-items: center;
 }
 
+.RendersBlock::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
 .OneRender img {
 	border-radius: 15px;
 	box-shadow: 2px 2px rgba(255, 255, 255, .75), -2px -2px rgba(255, 255, 255, .75), 2px -2px rgba(255, 255, 255, .75), -2px 2px rgba(255, 255, 255, .75);
@@ -91,6 +98,3 @@ footer {
 .OneRender img:hover {
 	box-shadow: 5px 5px 15px rgba(28, 18, 209, 0.3), -5px -5px 15px rgba(28, 18, 209, 0.3), 5px -5px 15px rgba(28, 18, 209, 0.3), -5px 5px 15px rgba(28, 18, 209, 0.3);
 }
-
-::-webkit-scrollbar { width: 0 }
-scrollbar-width: none;
