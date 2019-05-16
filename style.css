@@ -68,7 +68,7 @@ footer {
 .RendersBlock {
 	scrollbar-width: none;
 	overflow: auto;
-	height: auto;
+	height: inherit;
 	width: 75vw;
 	left: 0;
 	right: 0;
