@@ -9,6 +9,10 @@ body {
 	text-align: center;
 }
 
+#page-wrapper {
+	position: relative;
+}
+
 footer {
 	position: absolute;
 	bottom: 0.2vw;
