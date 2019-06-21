@@ -1,4 +1,4 @@
-jQuery(document),ready(function(){
+jQuery(document).ready(function(){
   
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'config.json', function() {
