@@ -6,9 +6,17 @@
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="img/blender_logo.png" rel="shortcut icon" type="image/x-icon">
+	<script src="particles.min.js"></script>
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'config.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
 </head>
 	
 <body>
+	<div id="particles-js"></div>
 	<div class="mainmenu">
 		<div class="menu">
 			<a href="https://sudoarch.github.io/CGG/">Home</a>
