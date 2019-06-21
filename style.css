@@ -9,6 +9,15 @@ body {
 	text-align: center;
 }
 
+footer {
+	position: absolute;
+	bottom: 0.2vw;
+	width: 100%;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
 #particles-js {
 	position: fixed;
 	width: 100%;
@@ -17,15 +26,8 @@ body {
 
 #page-wrapper {
 	position: relative;
-}
-
-footer {
-	position: absolute;
-	bottom: 0.2vw;
 	width: 100%;
-	font-size: 30px;
-	color: #fff;
-	text-align: center;
+	height: 100%;
 }
 
 .version {
