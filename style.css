@@ -9,6 +9,10 @@ body {
 	text-align: center;
 }
 
+#particles-js {
+	position: fixed;
+}
+
 #page-wrapper {
 	position: relative;
 }
