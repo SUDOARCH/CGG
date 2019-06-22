@@ -1,4 +1,6 @@
 body {
+	position: relative;
+	z-index: 2;
 	background: url("img/space_1.jpg") no-repeat center top;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -19,6 +21,7 @@ footer {
 }
 
 #particles-js {
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	left: 0;
