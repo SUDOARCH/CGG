@@ -52,7 +52,7 @@ footer {
 	margin-top: 0.5%;
 }
 
-.version {
+.topversion {
 	color: #fff;
 	float: right;
 	margin-top: 30px;
@@ -79,15 +79,6 @@ footer {
 }
 
 .menu {
-	display: inline-block;
-	width: 7.3%;
-}
-
-.topmainmenu {
-
-}
-
-.topmenu {
 	display: inline-block;
 	width: 7.3%;
 }
