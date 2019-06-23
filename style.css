@@ -47,10 +47,14 @@ footer {
 	position: relative;
 }
 
-.version {
-	margin-top: 30px;
-	float: right;
+.mainversion {
 	color: #fff;
+}
+
+.version {
+	color: #fff;
+	float: right;
+	margin-top: 30px;
 	padding-right: 20%;
 	
 }
