@@ -49,7 +49,7 @@ footer {
 
 .mainversion {
 	color: #fff;
-	margin-top: 5px;
+	margin-top: 0.5%;
 }
 
 .version {
@@ -74,11 +74,20 @@ footer {
 }
 
 .mainmenu {
-	margin: 15px auto;
+	margin: 5px auto;
 	
 }
 
 .menu {
+	display: inline-block;
+	width: 7.3%;
+}
+
+.topmainmenu {
+
+}
+
+.topmenu {
 	display: inline-block;
 	width: 7.3%;
 }
