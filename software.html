@@ -6,14 +6,23 @@
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="img/blender_logo.png" rel="shortcut icon" type="image/x-icon">
+	<script src="particles.min.js"></script>
+	<script>
+		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+		particlesJS.load('particles-js', 'config.json', function() {
+			console.log('callback - particles.js config loaded');
+		});
+	</script>
 </head>
 	
 <body>
-	<header>
-		<div class="version"><b>~ 0.3.43 ~ Alpha</b></div>
-		<div class="mainlogo"><small>CGG & B2.8 Conversation</small></div>
-	</header>
+	<div id="particles-js"></div>
+	<div id="page-wrapper">
 	
+	<header>
+		<div class="topbar">
+		<div class="logobar"><img src="img/untitled2.png"></div>
+		<div class="version"><b>~ 0.3.55 ~ Alpha</b></div>
 	<div class="mainmenu">
 		<div class="menu">
 			<a href="https://sudoarch.github.io/CGG/">Home</a>
@@ -28,13 +37,13 @@
 			<a href="https://sudoarch.github.io/CGG/links.html">Links</a>
 		</div>
 	</div>
+		</div> 
+	</header>
 	
 	<a href="https://drive.google.com/open?id=1WqSI2JrayUy-lftSoBgN0UY1rJL8QaHc"><img src="img/sp_logo.png" width="80" height="80"></a>
 	<a href="http://www.mediafire.com/file/w9700ddew53x1hm/FLS_20.1.2.887.zip/file"><img src="img/fls_logo.png" width="80" height="80"></a>
 	
-	<footer>
-		[ CGG # United CG ]
-	</footer>
+	</div>
 </body>
 	
 </html>
