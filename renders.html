@@ -6,11 +6,10 @@
 	<meta charset="utf-8">
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<link href="img/blender_logo.png" rel="shortcut icon" type="image/x-icon">
-	<audio src="music/Linnuissa - Kohtauksia.mp3" autoplay="autoplay" loop="true" preload="auto"></audio>
-	<script src="particles/particles.min.js"></script>
+	<script src="particles.min.js"></script>
 	<script>
 		/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-		particlesJS.load('particles-js', 'particles/config.json', function() {
+		particlesJS.load('particles-js', 'config.json', function() {
 			console.log('callback - particles.js config loaded');
 		});
 	</script>
@@ -21,10 +20,9 @@
 	<div id="page-wrapper">
 	
 	<header>
+		<div class="topbar">
+		<div class="logobar"><img src="img/untitled2.png"></div>
 		<div class="version"><b>~ 0.3.55 ~ Alpha</b></div>
-		<div class="mainlogo"><small>CGG & B2.8 Conversation</small></div>
-	</header>
-	
 	<div class="mainmenu">
 		<div class="menu">
 			<a href="https://sudoarch.github.io/CGG/">Home</a>
@@ -39,17 +37,37 @@
 			<a href="https://sudoarch.github.io/CGG/links.html">Links</a>
 		</div>
 	</div>
+		</div> 
+	</header>
 	
-	<div class="CenterBar">
-		<br>2.8 BETA STATUS - Full Feature/UI freeze. Polishing/CleanUp continues.
-		<br>Release is scheduled for July.
+	<div class="RendersBlock">
+		<div class="OneRender">
+			<a href="renders/VINO.png"><img src="renders/preVINO.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/AXE.png"><img src="renders/preAXE.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/AMMO CRATE.png"><img src="renders/preAMMO CRATE.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/SMOKE420.png"><img src="renders/preSMOKE420.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/KERAMBIT.png"><img src="renders/preKERAMBIT.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/BLADE.png"><img src="renders/preBLADE.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/ER.jpg"><img src="renders/preER.jpg" /></a>
+		</div>
+		<div class="OneRender">
+			<a href="renders/OP EXP.png"><img src="renders/preOP EXP.jpg" /></a>
+		</div>
 	</div>
 	
 	</div>
-	
-	<footer>
-		[ CGG # United CG ]
-	</footer>
 </body>
 	
 </html>
