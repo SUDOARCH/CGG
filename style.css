@@ -51,7 +51,7 @@ footer {
 	float: left;
 	margin-top: 5px;
 	padding-left: 20%;
-	
+
 }
 
 .mainversion {
@@ -64,7 +64,7 @@ footer {
 	float: right;
 	margin-top: 30px;
 	padding-right: 20%;
-	
+
 }
 
 .mainlogo {
@@ -82,12 +82,12 @@ footer {
 
 .mainmenu {
 	margin: 5px auto;
-	
+
 }
 
 .topmainmenu {
 	margin: 15px auto;
-	
+
 }
 
 .menu {
@@ -95,7 +95,20 @@ footer {
 	width: 7.3%;
 }
 
-.menu a {
+.current {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .4s linear;
+	box-shadow: inset 0 5px 4px rgba(255, 255, 255, .6), inset 0 -5px 4px rgba(0, 0, 0, .6), inset 0 -10px 7px rgba(0, 0, 0, .3), inset 0 10px 7px rgba(255, 255, 255, .3);
+	background: url("img/current.gif") no-repeat center bottom;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	color: #fff;
+}
+
+.notcurrent {
 	display: block;
 	padding: 1em;
 	text-decoration: none;
@@ -109,8 +122,8 @@ footer {
 }
 
 .menu a:hover {
-	color: #00838f;
-	background: #80deea;
+	background: url("img/green mist.jpg") no-repeat center bottom;
+
 }
 
 .CenterBar {
