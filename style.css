@@ -129,6 +129,13 @@ footer {
 .CenterBar {
 	color: #fff;
 	font-size: 20px;
+	width: 29%;
+	margin: 0 auto;
+	background: black;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
 }
 
 .RendersBlock {
