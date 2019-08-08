@@ -40,16 +40,14 @@ footer {
 	display: inline-block;
 	width: 100%;
 	height: 80px;
-	top: 50%;
 	background: url("images/top bar.jpg") no-repeat center;
 	box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 1);
 }
 
-.logobar {
+.toplogo {
 	float: left;
-	margin-top: 5px;
 	padding-left: 20%;
-
+	margin-top: -4%;
 }
 
 .mainversion {
@@ -60,9 +58,8 @@ footer {
 .topversion {
 	color: #fff;
 	float: right;
-	margin-top: 30px;
 	padding-right: 20%;
-
+	margin: -50px auto;
 }
 
 .mainlogo {
